@@ -152,11 +152,12 @@ body {
   font-size: 1.6rem;
   line-height: 1.8;
   overflow-x: hidden;
+  height: 300vh;
 }
 
-::-webkit-scrollbar { width: 13px; }
+::-webkit-scrollbar { width: 20px; }
 
-::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
+::-webkit-scrollbar-track { background-color: hsl(0, 0%, 100%); }
 
 ::-webkit-scrollbar-thumb { background-color: var(--pistachio); }
 
@@ -271,8 +272,9 @@ body {
   left: 0;
   width: 100%;
   background-color: transparent;
-  padding-block: 18px;
+  padding-block: 10px;
   z-index: 4;
+  display: grid;
 }
 
 .header::after {
@@ -297,7 +299,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 
 .logo {
@@ -351,7 +353,7 @@ body {
 }
 
 .navbar-list {
-  max-width: 400px;
+  
   width: 100%;
   margin: auto;
   padding-inline: 10px;
@@ -395,6 +397,7 @@ body {
   padding-block: 120px 60px;
   display: grid;
   align-items: center;
+  max-width: 100%;
 }
 
 .hero .section-subtitle {
